@@ -3,7 +3,9 @@
 int main()
 {
     std::cout << "Hello World!\n";
-	std::cout << "This is a C++ program running in Visual Studio.\n";	
+	std::cout << "This is a C++ program running in Visual Studio.\n";
+	std::cout << "Final Run.\n";
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
