@@ -45,7 +45,37 @@ int main()
 	cout << "Dear oni \\ HOW ARE YOU?" << endl;
 	cout << "love what you do with \"THE PLACE\" " << endl;
 
+	cout << "do you remember what is \"THIS\" mean" << endl;
+	cout << " yes this is mean the \t stuff right?" << endl;
 
+
+	/*Stage 3--- Variables*/
+
+	cout << "so we have 3 types of data types in C++\n";
+	cout << "fundamental data, derived data, and user-defined data\n\n";
+
+	int Number = 52;             // Integer (whole number without decimals)
+	float FloatNumber = 7.84;     // Floating point number (with decimals)
+	double DoubleNumber = 21.89822; // Large Floating point number.
+	char Letter = 'Z';            // Character
+	string Text = "AKAZIRO";     // String (text)
+	bool Boolean = true;          // Boolean (true or false)
+
+	cout << "the fundamental data types are: int, float, double, char, bool, wchar\n";
+	cout << "and the derived data types are: array, pointer, reference\n";
+	cout << "and the user-defined data types are: class, structure, union, enum\n\n\n";
+
+	int x = 10;
+	cout << "the value of x is: " << x << endl;
+
+	float y = 10.5;
+	cout << "the value of floot is: " << y << endl;	
+
+	x = 20;
+	cout << "now x became: " << x << endl;
+
+	string u = "\'A\' ";
+	cout << Text << " and " << u << endl;
 
 	return 0;
 }
