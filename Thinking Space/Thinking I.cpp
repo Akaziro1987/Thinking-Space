@@ -77,6 +77,20 @@ int main()
 	string u = "\'A\' ";
 	cout << Text << " and " << u << endl;
 
+	float sum = x + y;
+	cout << sum << endl;
+	//or
+	cout << x + y << endl << endl;
+
+	char character1 = 'D', character2 = 'F', character3 = 'C';
+
+	cout << character1 << character2 << character3;
+
+	const int read_only = 100;
+
+
+
+
 	return 0;
 }
 

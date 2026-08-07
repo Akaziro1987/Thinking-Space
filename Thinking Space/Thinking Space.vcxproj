@@ -24,7 +24,7 @@
     <ProjectGuid>{d6646d61-3e2a-4f32-8edf-afa890a22fbd}</ProjectGuid>
     <RootNamespace>ThinkingSpace</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Thinking I</ProjectName>
+    <ProjectName>Thinking Space</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -124,7 +124,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Thinking Space.cpp" />
+    <ClCompile Include="Thinking I.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

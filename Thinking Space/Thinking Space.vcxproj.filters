@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Thinking Space.cpp">
+    <ClCompile Include="Thinking I.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
