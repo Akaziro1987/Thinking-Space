@@ -33,6 +33,9 @@ int main()
 
 
 
+
+
+
 	/*Stage 2*/
 
 	cout << "this is how you make a double \\ double qoutaion" << endl;
@@ -47,6 +50,10 @@ int main()
 
 	cout << "do you remember what is \"THIS\" mean" << endl;
 	cout << " yes this is mean the \t stuff right?" << endl;
+
+
+
+
 
 
 	/*Stage 3--- Variables*/
@@ -84,11 +91,39 @@ int main()
 
 	char character1 = 'D', character2 = 'F', character3 = 'C';
 
-	cout << character1 << character2 << character3;
+	cout << character1 << character2 << character3 << endl << endl;
 
 	const int read_only = 100;
 
 
+
+
+	/*HOMEWORKSSSSSsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssSSSSS*/
+
+	int salary = 5000;
+	const char gender = 'M';
+	const bool isMarried = true;
+
+	cout << "++++++++++++++++++++++++++" << endl;
+	cout << "Name: Akaziro" << endl;
+	cout << "City: Casablanca" << endl; 
+	cout << "Country: Marocoococ" << endl;
+	cout << "Mounthly Salary: " << salary << endl;
+	cout << "Yearly Salary: " << salary * 12 << endl;
+	cout << "Gender: " << gender << endl;
+	cout << "Married: " << isMarried << endl;
+	cout << "++++++++++++++++++++++++++" << endl << endl << endl;
+
+
+
+	int twenty = 20, thirty = 30;
+	cout << "Total of 20 + 30 is: " << twenty + thirty << endl;
+
+
+
+	int fiveage = 5;
+
+	cout << "after 5 years the age will be: " << fiveage + 5 << endl;
 
 
 	return 0;
