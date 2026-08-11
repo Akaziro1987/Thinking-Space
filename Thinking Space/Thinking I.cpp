@@ -95,33 +95,66 @@ int main()
 
 	const int read_only = 100;
 
+	string yourname;
+	int yourage;
+
+	/*cout << "pleaaaaaase enter your name: ";
+	cin >> yourname;
+	cout << "Welcome " << "\"" << yourname << "\"" << endl;
+
+
+	cout << "please enter your age: ";
+	cin >> yourage;
+	cout << " your age is : " << yourage << endl << endl << endl;*/
 
 
 
 	/*HOMEWORKSSSSSsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssSSSSS*/
 
-	int salary = 5000;
-	const char gender = 'M';
-	const bool isMarried = true;
+	string name;
+	string city;
+	string country;
+	int salary;
+	char gender;
+	bool isMarried;
+
+	cout << "Please enter your name: ";
+	cin >> name;
+	cout << "your city: ";
+	cin >> city;
+	cout << "Country: ";
+	cin >> country;
+	cout << "Salary: ";
+	cin >> salary;
+	cout << "Gender: ";
+	cin >> gender;
+	cout << "Married: ";
+	cin >> isMarried;
+	cout << "" << endl << endl << endl;
 
 	cout << "++++++++++++++++++++++++++" << endl;
-	cout << "Name: Akaziro" << endl;
-	cout << "City: Casablanca" << endl; 
-	cout << "Country: Marocoococ" << endl;
-	cout << "Mounthly Salary: " << salary << endl;
-	cout << "Yearly Salary: " << salary * 12 << endl;
-	cout << "Gender: " << gender << endl;
-	cout << "Married: " << isMarried << endl;
+	cout << "your name is: " << name << endl;
+	cout << "your city is: " << city << endl;
+	cout << "your country: " << country << endl;
+	cout << "your salary is: " << salary << endl;
+	cout << " Your Yearly Salary is: " << salary * 12 << endl;
+	cout << "your gender is: " << gender << endl;
+	cout << "Do you have a wife? " << isMarried << endl;
 	cout << "++++++++++++++++++++++++++" << endl << endl << endl;
 
 
 
-	int twenty = 20, thirty = 30;
-	cout << "Total of 20 + 30 is: " << twenty + thirty << endl;
+	int twenty = 20, thirty = 30, ten = 10;
+	
+	cout << twenty << " +" << endl;
+	cout << thirty << " +" << endl;
+	cout << ten << endl;
+	cout << "----------------------------" << endl;
+	cout << "Total " << twenty + thirty + ten << endl << endl;
 
 
 
-	int fiveage = 5;
+	int fiveage = 25;
 
 	cout << "after 5 years the age will be: " << fiveage + 5 << endl;
 
