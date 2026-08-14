@@ -61,7 +61,7 @@ int main()
 	cout << "so we have 3 types of data types in C++\n";
 	cout << "fundamental data, derived data, and user-defined data\n\n";
 
-	int Number = 52;             // Integer (whole number without decimals)
+	unsigned short Number = 52;             // Integer (whole number without decimals)
 	float FloatNumber = 7.84;     // Floating point number (with decimals)
 	double DoubleNumber = 21.89822; // Large Floating point number.
 	char Letter = 'Z';            // Character
@@ -72,7 +72,7 @@ int main()
 	cout << "and the derived data types are: array, pointer, reference\n";
 	cout << "and the user-defined data types are: class, structure, union, enum\n\n\n";
 
-	int x = 10;
+	short x = 10;
 	cout << "the value of x is: " << x << endl;
 
 	float y = 10.5;
@@ -93,10 +93,10 @@ int main()
 
 	cout << character1 << character2 << character3 << endl << endl;
 
-	const int read_only = 100;
+	const short read_only = 100;
 
 	string yourname;
-	int yourage;
+	short yourage;
 
 	/*cout << "pleaaaaaase enter your name: ";
 	cin >> yourname;
@@ -107,14 +107,19 @@ int main()
 	cin >> yourage;
 	cout << " your age is : " << yourage << endl << endl << endl;*/
 
-
+	cout << "there are some data types and sizes";
+	cout << "we have signed and unsigned and long anf short and long long";
+	cout << "you dont need to writes int after shorts";
+	cout << "in c++ long and normal int are the same";
+	cout << "unsigned means there is no -  but the size remain the same" << endl;
+	cout << "size of int is  " << sizeof(int) << endl;
 
 	/*HOMEWORKSSSSSsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssSSSSS*/
 
 	string name;
 	string city;
 	string country;
-	int salary;
+	float salary;
 	char gender;
 	bool isMarried;
 
@@ -137,15 +142,22 @@ int main()
 	cout << "your city is: " << city << endl;
 	cout << "your country: " << country << endl;
 	cout << "your salary is: " << salary << endl;
-	cout << " Your Yearly Salary is: " << salary * 12 << endl;
+	cout << "Your Yearly Salary is: " << salary * 12 << endl;
 	cout << "your gender is: " << gender << endl;
 	cout << "Do you have a wife? " << isMarried << endl;
 	cout << "++++++++++++++++++++++++++" << endl << endl << endl;
 
 
 
-	int twenty = 20, thirty = 30, ten = 10;
-	
+	short twenty, thirty, ten;
+
+	cout <<"enter number one: ";
+	cin >> twenty;
+	cout << "enter number 2: ";
+	cin >> thirty;
+	cout << "enter number 3: ";
+	cin >> ten;
+
 	cout << twenty << " +" << endl;
 	cout << thirty << " +" << endl;
 	cout << ten << endl;
@@ -154,9 +166,12 @@ int main()
 
 
 
-	int fiveage = 25;
+	unsigned short int
+	yourcurrentage;
+	cout << "what is your age: ";
+	cin >> yourcurrentage;
 
-	cout << "after 5 years the age will be: " << fiveage + 5 << endl;
+	cout << "after 5 years the age will be: " << yourcurrentage + 5 << endl;
 
 
 	return 0;
