@@ -116,7 +116,7 @@ int main()
 
 	/*HOMEWORKSSSSSsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssSSSSS*/
 
-	string name;
+	/*string name;
 	string city;
 	string country;
 	float salary;
@@ -145,11 +145,11 @@ int main()
 	cout << "Your Yearly Salary is: " << salary * 12 << endl;
 	cout << "your gender is: " << gender << endl;
 	cout << "Do you have a wife? " << isMarried << endl;
-	cout << "++++++++++++++++++++++++++" << endl << endl << endl;
+	cout << "++++++++++++++++++++++++++" << endl << endl << endl;*/
 
 
 
-	short twenty, thirty, ten;
+	/*short twenty, thirty, ten;
 
 	cout <<"enter number one: ";
 	cin >> twenty;
@@ -162,18 +162,43 @@ int main()
 	cout << thirty << " +" << endl;
 	cout << ten << endl;
 	cout << "----------------------------" << endl;
-	cout << "Total " << twenty + thirty + ten << endl << endl;
+	cout << "Total " << twenty + thirty + ten << endl << endl;*/
 
 
 
-	unsigned short int
+	/*unsigned short int
 	yourcurrentage;
 	cout << "what is your age: ";
 	cin >> yourcurrentage;
 
-	cout << "after 5 years the age will be: " << yourcurrentage + 5 << endl;
+	cout << "after 5 years the age will be: " << yourcurrentage + 5 << endl;*/
 
 
+	/*short firstnumber, secondnumber;
+
+	cout << "enter number one: ";
+	cin >> firstnumber;
+
+	cout << "enter number two: ";
+	cin >> secondnumber;
+	cout << endl;
+
+	cout << firstnumber << "+" << secondnumber << "=" << firstnumber + secondnumber << endl;
+	cout << firstnumber << "-" << secondnumber << "=" << firstnumber - secondnumber << endl;
+	cout << firstnumber << "*" << secondnumber << "=" << firstnumber * secondnumber << endl;
+	cout << firstnumber << "/" << secondnumber << "=" << firstnumber / secondnumber << endl;*/
+
+
+
+	//PLUS PLUS
+	
+	short plusplus = 10;
+
+	plusplus++;
+
+	cout << plusplus;
+
+	
 	return 0;
 }
 
