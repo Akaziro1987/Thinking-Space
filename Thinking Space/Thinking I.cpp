@@ -8,28 +8,28 @@ int main()
    /*and this is a long comment so you will never forget about this*/
 
 
-	cout << "hear me nigga you need to remember that" << endl;
-	cout << "m1 " << "m2 " << "m3 " << endl;
-	cout << "m1 m2 m3" << endl;
-	cout << "the results of " << "673 + 364 = " << 673 + 364 << endl;
+	//cout << "hear me nigga you need to remember that" << endl;
+	//cout << "m1 " << "m2 " << "m3 " << endl;
+	//cout << "m1 m2 m3" << endl;
+	//cout << "the results of " << "673 + 364 = " << 673 + 364 << endl;
 
 
-	cout << "NAME: AKAZIRO NAZARIO\n";
-	cout << "AGE: 19\n";
-	cout << "I CAN DO ANYTHING\n";
-	cout << "so can we end this now\n";
-	cout << endl << endl;
-	cout << "this is so far\n\n";
+	//cout << "NAME: AKAZIRO NAZARIO\n";
+	//cout << "AGE: 19\n";
+	//cout << "I CAN DO ANYTHING\n";
+	//cout << "so can we end this now\n";
+	//cout << endl << endl;
+	//cout << "this is so far\n\n";
 
-	cout << "this " << "is " << "one " << "message" << endl << endl;
+	//cout << "this " << "is " << "one " << "message" << endl << endl;
 
-	cout << "*        *\n";
-	cout << "*        *\n";
-	cout << "*        *\n";
-	cout << "**********"<< endl;
-	cout << "*        *\n";
-	cout << "*        *\n";
-	cout << "*        *\n\n\n";
+	//cout << "*        *\n";
+	//cout << "*        *\n";
+	//cout << "*        *\n";
+	//cout << "**********"<< endl;
+	//cout << "*        *\n";
+	//cout << "*        *\n";
+	//cout << "*        *\n\n\n";
 
 
 
@@ -38,7 +38,7 @@ int main()
 
 	/*Stage 2*/
 
-	cout << "this is how you make a double \\ double qoutaion" << endl;
+	/*cout << "this is how you make a double \\ double qoutaion" << endl;
 	cout << " and this is TAB \t qoutation for 4 spaces" << endl;
 
 	cout << "and my name is \"AKAZIRO\" " << endl;
@@ -52,51 +52,51 @@ int main()
 	cout << " yes this is mean the \t stuff right?" << endl;
 
 
-
+*/
 
 
 
 	/*Stage 3--- Variables*/
 
-	cout << "so we have 3 types of data types in C++\n";
-	cout << "fundamental data, derived data, and user-defined data\n\n";
+	//cout << "so we have 3 types of data types in C++\n";
+	//cout << "fundamental data, derived data, and user-defined data\n\n";
 
-	unsigned short Number = 52;             // Integer (whole number without decimals)
-	float FloatNumber = 7.84;     // Floating point number (with decimals)
-	double DoubleNumber = 21.89822; // Large Floating point number.
-	char Letter = 'Z';            // Character
-	string Text = "AKAZIRO";     // String (text)
-	bool Boolean = true;          // Boolean (true or false)
+	//unsigned short Number = 52;             // Integer (whole number without decimals)
+	//float FloatNumber = 7.84;     // Floating point number (with decimals)
+	//double DoubleNumber = 21.89822; // Large Floating point number.
+	//char Letter = 'Z';            // Character
+	//string Text = "AKAZIRO";     // String (text)
+	//bool Boolean = true;          // Boolean (true or false)
 
-	cout << "the fundamental data types are: int, float, double, char, bool, wchar\n";
-	cout << "and the derived data types are: array, pointer, reference\n";
-	cout << "and the user-defined data types are: class, structure, union, enum\n\n\n";
+	//cout << "the fundamental data types are: int, float, double, char, bool, wchar\n";
+	//cout << "and the derived data types are: array, pointer, reference\n";
+	//cout << "and the user-defined data types are: class, structure, union, enum\n\n\n";
 
-	short x = 10;
-	cout << "the value of x is: " << x << endl;
+	//short x = 10;
+	//cout << "the value of x is: " << x << endl;
 
-	float y = 10.5;
-	cout << "the value of floot is: " << y << endl;	
+	//float y = 10.5;
+	//cout << "the value of floot is: " << y << endl;	
 
-	x = 20;
-	cout << "now x became: " << x << endl;
+	//x = 20;
+	//cout << "now x became: " << x << endl;
 
-	string u = "\'A\' ";
-	cout << Text << " and " << u << endl;
+	//string u = "\'A\' ";
+	//cout << Text << " and " << u << endl;
 
-	float sum = x + y;
-	cout << sum << endl;
-	//or
-	cout << x + y << endl << endl;
+	//float sum = x + y;
+	//cout << sum << endl;
+	////or
+	//cout << x + y << endl << endl;
 
-	char character1 = 'D', character2 = 'F', character3 = 'C';
+	//char character1 = 'D', character2 = 'F', character3 = 'C';
 
-	cout << character1 << character2 << character3 << endl << endl;
+	//cout << character1 << character2 << character3 << endl << endl;
 
-	const short read_only = 100;
+	//const short read_only = 100;
 
-	string yourname;
-	short yourage;
+	//string yourname;
+	//short yourage;
 
 	/*cout << "pleaaaaaase enter your name: ";
 	cin >> yourname;
@@ -107,12 +107,12 @@ int main()
 	cin >> yourage;
 	cout << " your age is : " << yourage << endl << endl << endl;*/
 
-	cout << "there are some data types and sizes";
+	/*cout << "there are some data types and sizes";
 	cout << "we have signed and unsigned and long anf short and long long";
 	cout << "you dont need to writes int after shorts";
 	cout << "in c++ long and normal int are the same";
 	cout << "unsigned means there is no -  but the size remain the same" << endl;
-	cout << "size of int is  " << sizeof(int) << endl;
+	cout << "size of int is  " << sizeof(int) << endl;*/
 
 	/*HOMEWORKSSSSSsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssSSSSS*/
 
@@ -191,12 +191,55 @@ int main()
 
 
 	//PLUS PLUS
-	
+	/*
 	short plusplus = 10;
 
 	plusplus++;
 
-	cout << plusplus;
+	cout << plusplus;*/
+
+
+	//operator shortcuts
+
+	/*short ten = 10, twenty = 20;
+
+	cout << "instead of \"ten + twenty\" we write : (ten += twenty) " << (ten += twenty);*/
+
+
+	//relational operator
+
+	short A, B, C, D, F,G;
+
+	cin >> A;
+	cin >> B;
+
+	cout << "does A == B ? " << endl;
+
+	if (A == B)
+		cout << "yes it is";
+	else
+		cout << "not it aint" << endl;
+
+	cin >> C;
+	cin >> D;
+
+	cout << "Does C >= D ?" << endl;
+
+	if (C >= D)
+		cout << "yes it is";
+	else
+		cout << "no it aint";
+
+	cin >> F;
+	cin >> G;
+
+	cout << "Does F != G ?" << endl;
+
+	if (F != G)
+		cout << "yes it is";
+	else
+		cout << "no it aint";
+
 
 	
 	return 0;
