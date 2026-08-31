@@ -208,7 +208,7 @@ int main()
 
 	//relational operator
 
-	short A, B, C, D, F,G;
+	/*short A, B, C, D, F,G;
 
 	cin >> A;
 	cin >> B;
@@ -238,7 +238,22 @@ int main()
 	if (F != G)
 		cout << "yes it is";
 	else
-		cout << "no it aint";
+		cout << "no it aint";*/
+
+
+	//logical operator
+
+	short ahmed = 5, omar= 10;
+
+	cout  << (omar && ahmed) << endl; //omar AND ahmed
+
+	cout << (omar || ahmed) << endl; //omar OR ahmed
+
+	cout << !(omar && ahmed) << endl; //NOT omar AND ahmed
+
+
+
+	
 
 
 	
