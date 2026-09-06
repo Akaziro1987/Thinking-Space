@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 int main()
 {
@@ -243,13 +244,65 @@ int main()
 
 	//logical operator
 
-	short ahmed = 5, omar= 10;
+	//short ahmed = 5, omar= 10;
 
-	cout  << (omar && ahmed) << endl; //omar AND ahmed
+	//cout  << (omar && ahmed) << endl; //omar AND ahmed
 
-	cout << (omar || ahmed) << endl; //omar OR ahmed
+	//cout << (omar || ahmed) << endl; //omar OR ahmed
 
-	cout << !(omar && ahmed) << endl; //NOT omar AND ahmed
+	//cout << !(omar && ahmed) << endl; //NOT omar ANDa ahmed
+
+	/*cout << !(12 >= 12) << endl;
+	cout << !(12 < 7) << endl;
+	cout << !(8 < 6) << endl;
+	cout << !(8 == 8) << endl;
+	cout << !(12 <= 12) << endl;
+	cout << !(7 == 5) << endl;
+
+	cout << (1 && 1) << endl;
+	cout << ((1 == 1) && (1 == 2)) << endl;
+	cout << (0 || 1) << endl;
+	cout << (0 || 0) << endl;
+	cout << !(0) << endl;
+	cout << !(1 || 0) << endl;
+
+
+	cout << (7 == 7 && 7 > 5) << endl;
+	cout << (7 == 7 && 7 < 5) << endl;
+	cout << (7 == 7 || 7 < 5) << endl;
+	cout << (7 < 7 || 7 > 5) << endl;
+	cout << !(7 == 7 && 7 > 5) << endl;
+	cout << (7 == 7 && !(7 < 5)) << endl;
+
+
+	cout << ((5 > 6 && 7==7 ) ||  (1||0)) << endl;
+
+	cout << (!(5 > 6 && 7 == 7) || (1 || 0)) << endl;
+
+	cout << ((5 > 6 && 7 == 7) || !(1 || 0)) << endl;*/
+
+
+	//math functions
+
+	double nombre = 80, nombre2 = 3.4f;
+
+	cout << sqrt (round(nombre)) << endl;
+
+	cout << round(2.3) + round(2.8) << endl;
+
+	cout << pow(4, 2) << endl;
+
+	cout << round (nombre2) << endl;
+
+	cout << ceil(4.1) << endl;
+	cout << floor(4.9) << endl;
+
+	cout << abs(-876) << endl;
+
+
+
+
+
 
 
 
