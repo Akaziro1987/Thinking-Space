@@ -284,7 +284,7 @@ int main()
 
 	//math functions
 
-	double nombre = 80, nombre2 = 3.4f;
+	/*ouble nombre = 80, nombre2 = 3.4f;
 
 	cout << sqrt (round(nombre)) << endl;
 
@@ -297,18 +297,32 @@ int main()
 	cout << ceil(4.1) << endl;
 	cout << floor(4.9) << endl;
 
-	cout << abs(-876) << endl;
+	cout << abs(-876) << endl;*/
+
+	/*double a = 5, b = 40;
+
+	cout << a * sqrt(pow(b, 2) - pow(a, 2)) << endl;*/
+
+	/*double a = 5;
+
+	cout << 3.14 * pow(a, 2) << endl;*/
+
+	/*double a = 10;
+
+	cout << (3.14 * pow(a, 2)) / 4 << endl;*/
+
+	/*double d = 10;
+
+	cout << (3.14 * pow(d, 2))  / 4 << endl;*/
+
+	/*double L = 20;
+
+	cout << (pow(L, 2)) / (4 * 3.14) << endl;*/
 
 
+	double a = 20, b=10;
 
-
-
-
-
-
-	
-
-
+	cout << 3.14 * (pow(b, 2) / 4) * ((2 * a - b) / (2 * a + b)) << endl;
 	
 	return 0;
 }
