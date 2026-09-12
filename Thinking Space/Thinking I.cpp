@@ -320,10 +320,61 @@ int main()
 	cout << (pow(L, 2)) / (4 * 3.14) << endl;*/
 
 
-	double a = 20, b=10;
+	//double a = 20, b=10;
 
-	cout << 3.14 * (pow(b, 2) / 4) * ((2 * a - b) / (2 * a + b)) << endl;
+	//cout << 3.14 * (pow(b, 2) / 4) * ((2 * a - b) / (2 * a + b)) << endl;
+	//
+
 	
+	/*double a = 20, b = 10;	
+
+	cout << (3.14 * pow(b, 2) / 4) * ((2 * a - b) / (2 * a + b)) << endl;*/
+
+	/*double a = 5, b = 6, c = 7, p;
+
+	p = (a + b + c) / 2;
+
+
+	cout << 3.14 * pow((a * b * c) / (4 * sqrt(p * (p - a) * (p - b) * (p - c))),2) << endl;
+
+	*/
+
+
+	/*double num;
+	
+	cout << "enter num: ";
+	cin >> num;
+
+	cout << pow(num, 2) << endl;
+	cout << pow(num, 3) << endl;
+	cout << pow(num, 4) << endl;*/
+
+
+	//double num, ous;
+
+	//cout << "enter num: " << endl;
+	//cin >> num;
+
+	//cout << "enter ous: " << endl;
+	//cin >> ous;
+
+	//cout << pow(num, ous) << endl;
+
+	//double days, hours, minutes, seconds,a,b,c;
+
+	//cin >> days;
+	//cin >> hours;
+	//cin >> minutes;
+	//cin >> seconds;
+
+	//a = days * 24 * 60 * 60;
+	//b = hours * 60 * 60;
+	//c = minutes * 60;
+
+	//cout << a + b + c + seconds << endl;
+
+
+
 	return 0;
 }
 
